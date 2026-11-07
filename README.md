@@ -8,6 +8,10 @@ It runs on a built-in simulated station and on real, public station data from th
 > The official Swiss avalanche bulletin is published by the WSL Institute for Snow and Avalanche Research SLF (slf.ch).
 > No affiliation with any company or institute is claimed.
 
+![Two-part chart. On the left, a simulated 8-day storm: snow height rising, 24-hour new snow crossing the 20 cm watch and 30 cm warning lines, and air temperature. On the right, a live 24-hour trace of snow height and temperatures from a public alpine station.](docs/figure.png)
+
+<sub>Left: the simulated 8-day scenario (`python -m snowpack simulate`). Right: live public SLF IMIS data for station DAV2, the last 24 h the API returned (ending 2026-11-07 22:30 UTC). Follow SLF's data terms if you reuse that data.</sub>
+
 ## Why
 
 A snow station that talks over LoRaWAN has to squeeze its measurements into a few bytes per uplink, and whoever
