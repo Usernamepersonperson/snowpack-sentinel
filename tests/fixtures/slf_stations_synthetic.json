@@ -1,0 +1,6 @@
+[
+  {"code": "AAA1", "label": "Synthetic Alpha", "lon": 9.0, "lat": 46.5, "elevation": 2500.0, "country_code": "CH", "canton_code": "GR", "type": "SNOW_FLAT"},
+  {"code": "BBB2", "label": "Synthetic Beta", "lon": 8.0, "lat": 46.6, "elevation": 2200.0, "country_code": "CH", "canton_code": "VS", "type": "WIND"},
+  {"code": "CCC3", "label": "Synthetic Gamma", "lon": 9.2, "lat": 46.7, "elevation": 2800.0, "country_code": "CH", "canton_code": "GR", "type": "WIND"},
+  {"label": "no code, skipped"}
+]

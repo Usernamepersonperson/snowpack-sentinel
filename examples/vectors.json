@@ -1,0 +1,117 @@
+[
+  {
+    "name": "typical_hand_computed",
+    "hex": "04d2fea2fd8ffe3eff38ffce153187a0",
+    "data": {
+      "hs_mm": 1234,
+      "ta_c": -3.5,
+      "tss_c": -6.25,
+      "t25_c": -4.5,
+      "t50_c": -2.0,
+      "t100_c": -0.5,
+      "wind_mean_ms": 4.2,
+      "wind_gust_ms": 9.8,
+      "wind_dir_deg": 270,
+      "battery_mv": 3600,
+      "flags": {
+        "low_battery": false,
+        "sensor_fault": false,
+        "event": false
+      }
+    }
+  },
+  {
+    "name": "all_invalid",
+    "hex": "1fff80008000800080008000ffffffff",
+    "data": {
+      "hs_mm": null,
+      "ta_c": null,
+      "tss_c": null,
+      "t25_c": null,
+      "t50_c": null,
+      "t100_c": null,
+      "wind_mean_ms": null,
+      "wind_gust_ms": null,
+      "wind_dir_deg": null,
+      "battery_mv": null,
+      "flags": {
+        "low_battery": false,
+        "sensor_fault": false,
+        "event": false
+      }
+    }
+  },
+  {
+    "name": "deep_snow_storm",
+    "hex": "9072fb2ef9f2fce0fe57ff9c347db382",
+    "data": {
+      "hs_mm": 4210,
+      "ta_c": -12.34,
+      "tss_c": -15.5,
+      "t25_c": -8.0,
+      "t50_c": -4.25,
+      "t100_c": -1.0,
+      "wind_mean_ms": 10.4,
+      "wind_gust_ms": 25.0,
+      "wind_dir_deg": 358,
+      "battery_mv": 3300,
+      "flags": {
+        "low_battery": false,
+        "sensor_fault": false,
+        "event": true
+      }
+    }
+  },
+  {
+    "name": "warm_wet_snow",
+    "hex": "628a02ee00000000000001400006005a",
+    "data": {
+      "hs_mm": 650,
+      "ta_c": 7.5,
+      "tss_c": 0.0,
+      "t25_c": 0.0,
+      "t50_c": 0.0,
+      "t100_c": 3.2,
+      "wind_mean_ms": 0.0,
+      "wind_gust_ms": 1.2,
+      "wind_dir_deg": 0,
+      "battery_mv": 2900,
+      "flags": {
+        "low_battery": true,
+        "sensor_fault": true,
+        "event": false
+      }
+    }
+  },
+  {
+    "name": "saturation_limits",
+    "hex": "fffe7fff80010001ffff0000fefeb3fe",
+    "data": {
+      "hs_mm": 8190,
+      "ta_c": 327.67,
+      "tss_c": -327.67,
+      "t25_c": 0.01,
+      "t50_c": -0.01,
+      "t100_c": 0.0,
+      "wind_mean_ms": 50.8,
+      "wind_gust_ms": 50.8,
+      "wind_dir_deg": 358,
+      "battery_mv": 4540,
+      "flags": {
+        "low_battery": true,
+        "sensor_fault": true,
+        "event": true
+      }
+    }
+  },
+  {
+    "name": "truncated_10_bytes",
+    "hex": "04d2fea2fd8ffe3eff38",
+    "error": true
+  },
+  {
+    "name": "too_long_17_bytes",
+    "hex": "0000000000000000000000000000000000",
+    "error": true
+  }
+]

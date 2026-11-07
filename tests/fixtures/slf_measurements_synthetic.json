@@ -1,0 +1,9 @@
+[
+  {"station_code": "TST1", "measure_date": "2026-01-05T10:00:00Z", "HS": 80.0, "TA_30MIN_MEAN": -4.5, "RH_30MIN_MEAN": 70.0, "TSS_30MIN_MEAN": -6.0, "TS0_30MIN_MEAN": -0.1, "TS25_30MIN_MEAN": -1.0, "TS50_30MIN_MEAN": -2.5, "TS100_30MIN_MEAN": -4.4, "RSWR_30MIN_MEAN": 10.0, "VW_30MIN_MEAN": 3.0, "VW_30MIN_MAX": 6.0, "DW_30MIN_MEAN": 200.0, "DW_30MIN_SD": 20.0},
+  {"station_code": "TST1", "measure_date": "2026-01-05T10:30:00Z", "HS": null, "TA_30MIN_MEAN": -4.0, "RH_30MIN_MEAN": null, "TSS_30MIN_MEAN": -5.5, "TS0_30MIN_MEAN": -0.1, "TS25_30MIN_MEAN": null, "TS50_30MIN_MEAN": -2.4, "TS100_30MIN_MEAN": -4.3, "VW_30MIN_MEAN": null, "VW_30MIN_MAX": null, "DW_30MIN_MEAN": null},
+  {"station_code": "TST1", "measure_date": "2026-01-05T09:30:00Z", "HS": "79.5", "TA_30MIN_MEAN": -5.0},
+  {"station_code": "TST1", "measure_date": "not-a-date", "HS": 99.0},
+  {"station_code": "TST1", "HS": 98.0},
+  {"station_code": "TST1", "measure_date": "2026-01-05T11:00:00Z", "HS": "n/a", "TA_30MIN_MEAN": true, "TSS_30MIN_MEAN": 1e999},
+  "garbage"
+]

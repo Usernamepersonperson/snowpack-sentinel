@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.env
+*.log
+live.txt
+sim_head.txt
+out.txt
+err.txt
