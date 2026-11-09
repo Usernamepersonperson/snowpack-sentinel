@@ -166,7 +166,7 @@ tests/       codec, parser (synthetic fixtures), indicators with known answers, 
 
 ## Next steps
 
-- Real hardware: ultrasonic snow-depth sensor plus a thermistor string on an STM32 with a LoRa module, deep sleep, event wake-up on HS change; write the matching firmware packer.
+- Real hardware: ultrasonic snow-depth sensor plus a thermistor string on a low-power microcontroller with a LoRa module, deep sleep, event wake-up on HS change; write the matching firmware packer.
 - Couple to a physical snow-cover model (for example SNOWPACK) driven by the station data, and compare its stability output with these simple indicators.
 - Grafana dashboard fed from the MQTT topic or a time-series database.
 - Wind direction aware loading, diurnal-cycle removal, per-site thresholds.
